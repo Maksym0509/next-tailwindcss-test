@@ -24,7 +24,7 @@ const DefaultButton: React.FC<ButtonProps> = ({
 
     return (
         <button onClick={onClick} className={classNames}>
-            <div className="custom-font text-white text-base font-bold text-[15px]">{label}</div>
+            <div className="custom-font text-white text-base font-bold text-[14px]">{label}</div>
         </button>
     );
 };
